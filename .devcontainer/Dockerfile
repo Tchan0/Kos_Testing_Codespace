@@ -1,6 +1,6 @@
 
-# Stage 1  TODO TODO: this should become: tchan0/dcchain:testing
-FROM tchan0/dcchain as build
+# Stage 1
+FROM tchan0/dcchain:testing as build
 
 # Add Kos
 RUN git clone https://github.com/KallistiOS/KallistiOS.git /opt/toolchains/dc/kos \
