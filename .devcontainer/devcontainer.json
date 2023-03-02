@@ -4,7 +4,7 @@
 	"name": "Kos_Testing_Codespace",
 		
 	// Either use a pre-built image (= a Docker container)...
-	//"image": "tchan0/dcchain:latest", //available from https://hub.docker.com/r/tchan0/dcchain/tags
+	//"image": "tchan0/dcchain:testing", //available from https://hub.docker.com/r/tchan0/dcchain/tags
 	// ... or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": { // Path is relative to the devcontainer.json file.
 	    "dockerfile": "Dockerfile"
