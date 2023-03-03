@@ -1,6 +1,6 @@
 
 # Stage 1
-FROM ghcr.io/tchan0/dcchain:testing as build
+FROM tchan0/dcchain:testing as build
 
 # Add Kos
 RUN git clone https://github.com/KallistiOS/KallistiOS.git /opt/toolchains/dc/kos \
